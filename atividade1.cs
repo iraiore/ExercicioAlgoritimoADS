@@ -14,8 +14,14 @@ namespace atividade1
     {
         static void Main (string[] args)
         {
-            //teste para o primeiro commit
-            Console.WriteLine("Olá Mundo");
+            //DECLARAÇÃO DE VARIÁVEIS
+            int P = 0;//variavel para armazenar o peso do pescado
+            int E = 0;//variável para armazenar o excesso de peso
+            int M = 0;// variável que recebera o valor da multa
+            //CÓGIDO
+            Console.WriteLine("Entre com o valor do pescado: ");//comando para instruir o usuario a entrar com os dados.
+            P = Convert.ToInt32(Console.ReadLine());
+
 
         }
     } 
