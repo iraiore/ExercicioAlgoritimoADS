@@ -21,6 +21,18 @@ namespace atividade1
             //CÓGIDO
             Console.WriteLine("Entre com o valor do pescado: ");//comando para instruir o usuario a entrar com os dados.
             P = Convert.ToInt32(Console.ReadLine());
+            if(P>50)
+            {
+                E = P-50;
+                M = E*4;
+                Console.WriteLine("O valor da multa a ser a paga é de: R$ "+M);
+                Console.WriteLine("O excedente do pescado foi de: "+E+" Kg");
+            }else
+            {
+                Console.WriteLine("Não a multa a ser paga");
+                Console.WriteLine("Os valores das variáveis P, E e M são respectivamente: "+P+", "+E+", "+M+".")
+
+            }
 
 
         }
