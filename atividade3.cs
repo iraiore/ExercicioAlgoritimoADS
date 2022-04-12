@@ -47,7 +47,7 @@ namespace atividade3
                 b =b*b;
                 c =c*c;
                 d =d*d;
-                Console.WriteLine("E seus respectivos quadrados são: "+a_quad+", "+b_quad+", "+c_quad+", "+d_quad+"."));
+                Console.WriteLine("E seus respectivos quadrados são: "+a_quad+", "+b_quad+", "+c_quad+", "+d_quad+".");
             }
         }
     }
