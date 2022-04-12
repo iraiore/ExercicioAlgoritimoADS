@@ -6,7 +6,7 @@ namespace atividade1
         static void Main (string[] args)
         {
             //teste para o primeiro commit
-            Console.WriteLine("Hello Word");
+            Console.WriteLine("Olá Mundo");
 
         }
     } 
