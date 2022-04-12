@@ -1,5 +1,5 @@
 using System;
-name space atividade1
+namespace atividade1
 {
     class Program
     {
