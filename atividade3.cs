@@ -21,7 +21,7 @@ namespace atividade3
             int a_quad = 0;
             int b_quad = 0;
             int c_quad = 0;
-            int _quad = 0;
+            int d_quad = 0;
             //CÓDIGO
             //Sequencia de instrução para o usuario entrar com os dados e serem armazenadas nas variáveis
             Console.WriteLine("Entre como o valor 1: ");
