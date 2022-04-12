@@ -5,7 +5,7 @@ name space atividade1
     {
         static void Main (string[] args)
         {
-            //teste par ao primeiro commit
+            //teste para o primeiro commit
             Console.WriteLine("Hello Word")
 
         }
