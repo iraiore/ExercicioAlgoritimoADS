@@ -32,7 +32,7 @@ namespace atividade2
             Console.WriteLine("O salário do operário  "+C+" é: R$ "+SHN+". O salário excedente é: R$: "+E+". O salário total do colaborador é: R$ "+ST);
         }else
         {
-            Console.WriteLine("Não houve salário excedente. O salário do colaborador, refernte a horas normais é: R$: "+SHN);
+            Console.WriteLine("Não houve salário excedente. O salário do colaborador, refernte a horas normais é: R$: "+SHN=50*10);
         }
         }
     }
