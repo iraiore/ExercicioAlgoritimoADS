@@ -20,8 +20,8 @@ namespace atividade1
             int M = 0;// variável que recebera o valor da multa
             //CÓGIDO
             Console.WriteLine("Entre com o valor do pescado: ");//comando para instruir o usuario a entrar com os dados.
-            P = Convert.ToInt32(Console.ReadLine());
-            if(P>50)
+            P = Convert.ToInt32(Console.ReadLine());// atribuindo o valor de entrada do usaurio a variavel P, foi utilizado a função convert para fins de teste
+            if(P>50)// inicio da estrutura de seleção if - somente sera executada se o que estiver dentro do if for verdade
             {
                 E = P-50;
                 M = E*4;
@@ -29,6 +29,7 @@ namespace atividade1
                 Console.WriteLine("O excedente do pescado foi de: "+E+" Kg");
             }else
             {
+                M=0;
                 Console.WriteLine("Não a multa a ser paga");
                 Console.WriteLine("Os valores das variáveis P, E e M são respectivamente: "+P+", "+E+", "+M+".");
 
