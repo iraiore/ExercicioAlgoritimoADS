@@ -30,7 +30,7 @@ namespace atividade1
             }else
             {
                 Console.WriteLine("Não a multa a ser paga");
-                Console.WriteLine("Os valores das variáveis P, E e M são respectivamente: "+P+", "+E+", "+M+".")
+                Console.WriteLine("Os valores das variáveis P, E e M são respectivamente: "+P+", "+E+", "+M+".");
 
             }
 
