@@ -29,7 +29,7 @@ namespace atividade2
             SHN = 50*10;
             E  = (N-50)*20;
             ST = SHN+E;
-            Console.WriteLine("O salário do operário "+" é: R$ "+SHN+". O salário excedente é: R$: "+E+". O salário total do colaborador é: R$ "+ST);
+            Console.WriteLine("O salário do operário  "+C+" é: R$ "+SHN+". O salário excedente é: R$: "+E+". O salário total do colaborador é: R$ "+ST);
         }else
         {
             Console.WriteLine("Não houve salário excedente. O salário do colaborador, refernte a horas normais é: R$: "+SHN);
