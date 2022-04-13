@@ -18,10 +18,10 @@ namespace atividade4
              }else if(num % 2 == 0 && num < 0)
                     {
                         Console.WriteLine("O número "+num+" é par negativo");
-                    }else if(num % 2 == 1 && num < 0)
+                    }else if(num % 2 != 0 && num < 0)
                             {
                         Console.WriteLine("O número "+num+" é impar negativo");
-                            }else if(num % 2 == 1 && num >= 0)
+                            }else if(num % 2 != 1 && num >= 0)
                                     {
                                         Console.WriteLine("O número "+num+" é impar positivo");
                                     }
