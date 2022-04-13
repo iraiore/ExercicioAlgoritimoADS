@@ -17,21 +17,21 @@ namespace atividade6
             Console.WriteLine("Entre com a idade do nadador: ");
             idade = Convert.ToInt32(Console.ReadLine());
 
-            if (idade  = 5 && idade <= 7)
+            if (idade >= 5 && idade <= 7)
             {
                 Console.WriteLine("A classificação do nadador é: Infantil A");
-            }else if (idade = 8 && idade <= 11)
+            }else if (idade >= 8 && idade <= 11)
             {
                 Console.WriteLine("A classificação do nadador é: Infantil B");
-            }else if (idade = 12 && idade <= 13)
+            }else if (idade >= 12 && idade <= 13)
             {
                 Console.WriteLine("A classificação do nadador é: Juvenil A");
-            }else if (idade = 14 && idade <= 17)
+            }else if (idade >= 14 && idade <= 17)
             {
                 Console.WriteLine("A classificação do nadador é: Juvenil B");
             }else
             {
-                Console.WriteLine("A classificaçãodo nadador é: Adultos");
+                Console.WriteLine("A classificação do nadador é: Adultos");
             }
         }
     }
