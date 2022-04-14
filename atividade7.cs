@@ -21,15 +21,43 @@ namespace atividade7
             a =  int.Parse(Console.ReadLine());
             Console.WriteLine("Entre como o valor 2: ");
             b =  int.Parse(Console.ReadLine());
-            if(a>b)
+            if(a > b)
             {
                 maior = a;
                 menor = b;
-            }else if(a<b)
+            }else if(a <= b)
             {
                 maior = b;
                 menor = a;
             }
+            Console.WriteLine("Entre como o valor 3: ");
+            c =  int.Parse(Console.ReadLine());
+            if(c > maior)
+            {
+                maior = c;
+            }else if(c < menor )
+            {
+                menor = c;
+            }
+            Console.WriteLine("Entre como o valor 4: ");
+            d =  int.Parse(Console.ReadLine());
+            if(d > maior)
+            {
+                maior = d;
+            }else if(d < menor )
+            {
+                menor = d;
+            }
+            Console.WriteLine("Entre como o valor 5: ");
+            c =  int.Parse(Console.ReadLine());
+            if(e > maior)
+            {
+                maior = e;
+            }else if(e < menor )
+            {
+                menor = e;
+            }
+            Console.WriteLine(maior+" "+menor);
         }
     }
 }
