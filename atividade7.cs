@@ -8,7 +8,7 @@ namespace atividade7
 {
     class Program
     {
-        static void Main (strring[] args)
+        static void Main (string[] args)
         {
             int a = 0;
             int b = 0;
@@ -21,8 +21,8 @@ namespace atividade7
             a = int.Parse(Console.ReadLine());
             Console.WriteLine("Entre como o valor 2: ");
             b = int.Parse(Console.ReadLine());
-            Console.WriteLine(a+" "+b);
-            /*if(a > b)
+            
+            if(a > b)
             {
                 maior = a;
                 menor = b;
@@ -31,7 +31,7 @@ namespace atividade7
                 maior = b;
                 menor = a;
             }Console.WriteLine(maior+" "+menor);
-            /*Console.WriteLine("Entre como o valor 3: ");
+            Console.WriteLine("Entre como o valor 3: ");
             c =  int.Parse(Console.ReadLine());
             if(c > maior)
             {
@@ -58,7 +58,7 @@ namespace atividade7
             {
                 menor = e;
             }
-            Console.WriteLine(maior+" "+menor);*/
+            Console.WriteLine(maior+" "+menor);
         }
     }
 }
