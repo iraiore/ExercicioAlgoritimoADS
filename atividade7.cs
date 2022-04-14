@@ -21,7 +21,8 @@ namespace atividade7
             a =  int.Parse(Console.ReadLine());
             Console.WriteLine("Entre como o valor 2: ");
             b =  int.Parse(Console.ReadLine());
-            if(a > b)
+            Console.WriteLine(a+" "+b);
+            /*if(a > b)
             {
                 maior = a;
                 menor = b;
