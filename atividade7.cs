@@ -18,9 +18,9 @@ namespace atividade7
             int maior = 0;
             int menor = 0;
             Console.WriteLine("Entre como o valor 1: ");
-            a =  int.Parse(Console.ReadLine());
+            a = int.Parse(Console.ReadLine());
             Console.WriteLine("Entre como o valor 2: ");
-            b =  int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
             Console.WriteLine(a+" "+b);
             /*if(a > b)
             {
