@@ -50,7 +50,7 @@ namespace atividade7
                 menor = d;
             }Console.WriteLine("maior: "+maior+" "+"menor: "+menor);
             Console.WriteLine("Entre como o valor 5: ");
-            c =  int.Parse(Console.ReadLine());
+            e =  int.Parse(Console.ReadLine());
             if(e > maior)
             {
                 maior = e;
