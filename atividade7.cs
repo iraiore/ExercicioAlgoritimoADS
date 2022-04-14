@@ -29,13 +29,13 @@ namespace atividade7
             {
                 maior = b;
                 menor = a;
-            }
-            Console.WriteLine("Entre como o valor 3: ");
+            }Console.WriteLine(maior+" "+menor);
+            /*Console.WriteLine("Entre como o valor 3: ");
             c =  int.Parse(Console.ReadLine());
             if(c > maior)
             {
                 maior = c;
-            }else if(c < menor )
+            }else if(c < menor)
             {
                 menor = c;
             }
@@ -44,7 +44,7 @@ namespace atividade7
             if(d > maior)
             {
                 maior = d;
-            }else if(d < menor )
+            }else if(d < menor)
             {
                 menor = d;
             }
@@ -53,11 +53,11 @@ namespace atividade7
             if(e > maior)
             {
                 maior = e;
-            }else if(e < menor )
+            }else if(e < menor)
             {
                 menor = e;
             }
-            Console.WriteLine(maior+" "+menor);
+            Console.WriteLine(maior+" "+menor);*/
         }
     }
 }
